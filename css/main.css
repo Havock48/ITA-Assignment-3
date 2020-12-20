@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    border-radius: 5px;
+    float: left;
+}
+
+#active {color: #f7421e;}
+
+.sideNav {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    left: 0;
+    height: 100%;
+    background-color: #ddd;
+}
+
+.sideNav ul li {
+    margin: 20px;
+    list-style: none;
+}
+
+.sideNav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: Lato;
+    font-weight: 600;
+    color: #000;
+}
+
+.sideNav ul li a:hover {color: #f7421e;}
+
+.sideBar {
+    margin-left: 270px;
+    position: relative;
+    right: 20px;
+}
+
+.sideBar h1 {
+    margin: 20px 0;
+    font-size: 30px;
+    font-family: Oswald;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    width: 90%;
+}
+
+.sideBar h3 {font-family: Arial;}
+
+.sideBar h4 {
+    font-family: Arial;
+    margin: 20px 0;
+}
+
+.sideBar .section {
+    position: relative; 
+    left: 20px;
+}
+
+.sideBar .section p {
+    font-family: Lato;
+    font-size: 19px;
+    letter-spacing: 1px;
+    line-height: 1.9;
+    padding: 10px 0;
+    width: 80%;
+}
+
+table {
+    width: 85%;
+    margin: 20px 0;
+}
+
+table, td, th {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    padding: 20px;
+    font-family: Lato;
+}
+
+td {font-style: italic;}
+
+#td-bg-color {
+    background: #e6e6e6;
+    font-style: unset;
+}
